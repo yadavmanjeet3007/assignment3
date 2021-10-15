@@ -1,0 +1,22 @@
++*In[7]:*+
+[source, ipython3]
+----
+l=[8, 2, 3, 0, 7]
+sum = 0
+for i in l:
+    sum = sum + i
+print(sum) 
+----
+
+
++*Out[7]:*+
+----
+20
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----

@@ -1,0 +1,53 @@
++*In[1]:*+
+[source, ipython3]
+----
+s=input()
+----
+
+
++*Out[1]:*+
+----
+The quick Brow Fox
+----
+
+
++*In[10]:*+
+[source, ipython3]
+----
+def calculate_upper_and_lower(s):
+    no_uppercase=0
+    no_lowercase=0
+    for i in s:
+        if i.isupper():
+            no_uppercase+=1
+        elif i.islower():
+            no_lowercase+=1
+        else: 
+            pass   
+    print(s)
+    print('No. of uppercase letter: ',no_uppercase)
+    print('No. of lowercase letter: ',no_lowercase)
+ 
+----
+
+
++*In[11]:*+
+[source, ipython3]
+----
+calculate_upper_and_lower(s)
+----
+
+
++*Out[11]:*+
+----
+The quick Brow Fox
+No. of uppercase letter:  3
+No. of lowercase letter:  12
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----

@@ -1,0 +1,37 @@
++*In[1]:*+
+[source, ipython3]
+----
+s=input()
+----
+
+
++*Out[1]:*+
+----
+1234abcd
+----
+
+
++*In[2]:*+
+[source, ipython3]
+----
+def reverse(s):
+    return s[::-1]
+----
+
+
++*In[3]:*+
+[source, ipython3]
+----
+reverse(s)
+----
+
+
++*Out[3]:*+
+----'dcba4321'----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
